@@ -35,10 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git Hub](https://github.com/rooooob/rest-countries-api-with-color-theme)
-- Live Site URL: [Git Hub Pages](https://rooooob.github.io/rest-countries-api-with-color-theme/)
-<<<<<<< HEAD
-=======
+- Solution URL: [Git Hub](https://github.com/RobTov/rest-countries-api-with-color-theme)
+- Live Site URL: [Git Hub Pages](rest-countries-api-with-color-theme.vercel.app)
 
 <!-- ## My process -->
 
@@ -86,16 +84,10 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Rob](https://github.com/rooooob)
-- Frontend Mentor - [Rob](https://www.frontendmentor.io/profile/rooooob)
+- Website - [Rob](https://github.com/RobTov)
 
 <!-- 
 ## Acknowledgments -->
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
->>>>>>> 1c6d1a95f360ac518b2ffac6da5d5689ff02f33e
 
 <!-- ## My process -->
 
@@ -140,11 +132,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
-
-## Author
-
-- Website - [Rob](https://github.com/rooooob)
-- Frontend Mentor - [Rob](https://www.frontendmentor.io/profile/rooooob)
 
 <!-- 
 ## Acknowledgments -->
