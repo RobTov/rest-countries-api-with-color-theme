@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git Hub](https://github.com/RobTov/rest-countries-api-with-color-theme)
-- Live Site URL: [Git Hub Pages](rest-countries-api-with-color-theme.vercel.app)
+- Live Site URL: [Vercel](rest-countries-api-with-color-theme.vercel.app)
 
 <!-- ## My process -->
 
