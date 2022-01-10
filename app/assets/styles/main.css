@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-elements: hsl(209, 23%, 22%);
+    --dark-background: hsl(207, 26%, 17%);
+    --light-text: hsl(200, 15%, 8%);
+    --light-input: hsl(0, 0%, 52%);
+    --light-background: hsl(0, 0%, 98%);
+    --dark-text-light-elements: hsl(0, 0%, 100%); 
+    --font-family: 'Nunito Sans', sans-serif;
+}
+
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--dark-background);
+    color: var(--dark-text-light-elements);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-text-light-elements);
+}
+
+*:focus {
+    outline: none;
+}
+
+.theme:hover, .main-header:hover {
+    opacity: .3;
+    cursor: pointer;
+}
+
+.v-detail:hover {
+    opacity: .5;
+    transition: .4s;
+}
+
+.uil {
+    color: var(--dark-text-light-elements);
+}
+
+.homepage {
+    font-size: 14px;
+}
+
+.detail {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.loader {
+    width: 4rem;
+    height: 4rem;
+    margin: 5rem auto;
+    display: block;
+}
+
+.error {
+    margin: 7rem auto;
+    text-align: center;
+    font-weight: 800;
+    color: #ee3a67;
+}
+
+/* HEADER */
+
+svg {
+    width: 1rem;
+    height: 1rem;
+    display: inline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: var(--dark-elements);
+}
+
+header h2, header p {
+    margin: auto 2rem;
+}
+
+/* CARDS */
+.grid-fluid {
+    margin: 2rem auto;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 260px;
+    height: 330px;
+    margin: 1.3rem auto;
+    background-color: var(--dark-elements);
+    border-radius: 5px;
+}
+
+.card img {
+    height: 150px;
+    width: 260px;
+    object-fit: cover;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-info {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card-info h4 {
+    margin: 1rem auto;
+    font-weight: 800;
+}
+
+.card-info p {
+    margin-top: .3rem;
+    font-size: 80%;
+}
+
+.info {
+    font-weight: 600;
+}
+
+/* SEARCH AND SELECT*/
+.int-div {
+    display: flex;
+    width: 88%;
+    height: 3rem;
+    align-items: center;
+    margin: 3rem auto;
+    justify-content: space-between;
+}
+
+.search-div {
+    background-color: var(--dark-elements);
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 4rem;
+    text-align: left;
+}
+
+input[type="search"] {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--dark-text-light-elements);
+    margin-left: 1rem;
+}
+
+.region-select {
+    background-color: var(--dark-elements);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 5px;
+}
+
+select {
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    line-height: normal;
+    background-color: var(--dark-elements);
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--dark-text-light-elements);
+}
+
+.region-select .uil {
+    font-size: 1.3rem;
+}
+
+/* CARD DETAILS */
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem;
+}
+
+.back {
+    width: 5rem;
+    background-color: var(--dark-elements);
+    border-radius: 5px;
+    padding: .5rem 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.back:hover {
+    opacity: .5;
+}
+
+.country-detail {
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: row;
+}
+
+.d-img {
+    width: 440px;
+    height: 340px;
+}
+
+.country-desc {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 60%;
+    margin: 2rem 4rem;
+}
+
+.desc-title {
+    flex: 100%;
+}
+
+.country-sm-desc {
+    display: flex;
+    flex: 100%;
+}
+
+.cd-right {
+    margin-left: 2rem;
+}
+
+.cd-left *, .cd-right * {
+    margin-bottom: .2rem;
+}
+
+.borders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.borders-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.b-box {
+    margin-left: .4rem;
+    margin-bottom: .3rem;
+    border-radius: 2px;
+    background-color: var(--dark-elements);
+    padding: .15rem;
+}
+
+.b-box:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 850px) {
+    .int-div {
+        display: flex;
+        width: 100%;
+        height: 20vh;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-div {
+        margin: 0 1rem;
+        margin-bottom: 3rem;
+        text-align: left;
+        width: 90%;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .region-select {
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    .d-img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .country-detail {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .country-desc {
+        margin-left: 0;
+    }
+
+    .country-detail {
+        flex-direction: column;
+    }
+
+    .country-sm-desc {
+        flex-direction: column;
+        margin-top: 1.4rem;
+    }
+
+    .country-sm-desc * {
+        margin-bottom: 1rem;
+    }
+
+    .cd-right {
+        margin: .5rem 0;
+    }
+    
+    .borders {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .borders-btn {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .b-box {
+        margin-left: 0;
+        margin-right: .3rem;
+    }
+}
+
+/* THEME */
+
+.light-bg {
+    background-color: var(--light-background);
+    color: var(--light-text);
+}
+
+.light-el {
+    background-color: var(--dark-text-light-elements);
+    color: var(--light-text);
+    box-shadow: 1px 1px 1px 1px rgba(58, 58, 58, .3);
+}
+
+.light-el * {
+    color: var(--light-text);
+}
+
+.light-select {
+    background-color: var(--dark-text-light-elements);
+    color: var(--light-text);
+}
+
+.light-input::placeholder {
+    color: var(--light-text);
+}
